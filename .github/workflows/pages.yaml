@@ -21,7 +21,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 14.19.x
+          node-version: 16.17.1
           cache: npm
       - name: Install NPM Dependencies
         run: npm i
