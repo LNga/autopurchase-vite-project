@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: autopurchase
-      url: https://LNga.github.io/autopurchasevite.com
+      url: https://lnga.github.io/autopurchase-vite-project/
     needs: build
     steps:
       - name: Download artifact
