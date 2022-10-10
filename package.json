@@ -1,6 +1,8 @@
 {
   "homepage": "https://lnga.github.io/autopurchase-vite-project/",
   "name": "autopurchase-vite-project",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
